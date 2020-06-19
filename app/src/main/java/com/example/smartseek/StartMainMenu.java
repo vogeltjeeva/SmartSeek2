@@ -34,7 +34,7 @@ private Button b_contact;
         b_the_map.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(StartMainMenu.this,TheMap.class));
+                startActivity(new Intent(StartMainMenu.this,MapsActivity.class));
             }
          });
 

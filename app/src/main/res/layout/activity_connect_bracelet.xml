@@ -24,14 +24,14 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/b_clear"
+        android:id="@+id/b_search"
         android:layout_width="130dp"
         android:layout_height="70dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginBottom="30dp"
         android:background="#92CF9B"
-        android:text="Clear"
+        android:text="Search"
         android:textAllCaps="false"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -84,24 +84,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/b_bluetooth"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="20dp"
-        android:text="Turn on Bluetooth"
-        android:textAllCaps="false"
-        android:background="#92CF9B"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/b_clear"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <ListView
         android:id="@+id/List_PairedDevices"
         android:layout_width="376dp"
@@ -111,8 +93,6 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="40dp"
-        app:layout_constraintBottom_toTopOf="@+id/b_bluetooth"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
